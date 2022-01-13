@@ -54,7 +54,7 @@ class Home extends Component {
         <Container>
             <Row>
                 <Col>
-                   <h2> This is home.</h2>
+                   <h2> Employee List</h2>
                    <SearchBar doSearch={this.handleSearch}/>
                    <EmployeeList />
                 </Col>
